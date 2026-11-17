@@ -1,5 +1,5 @@
 {
-  "name": "api-tester-cli",
+  "name": "@sarthakjaiswal2006/api-tester-cli",
   "version": "1.0.0",
   "description": "A lightweight command-line REST API testing tool for the terminal",
   "type": "module",
@@ -28,6 +28,13 @@
     "url": "https://github.com/sarthakjaiswal2006/api-tester-cli/issues"
   },
   "homepage": "https://github.com/sarthakjaiswal2006/api-tester-cli#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
   "dependencies": {
     "commander": "^15.1.0"
   }

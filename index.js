@@ -1,5 +1,4 @@
-
-
+#!/usr/bin/env node
 import { performance } from "node:perf_hooks";
 const useColors = process.stdout.isTTY && !process.env.NO_COLOR;
 const color = (text, code) =>
