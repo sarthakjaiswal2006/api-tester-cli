@@ -1,6 +1,6 @@
 {
   "name": "@sarthakjaiswal2006/api-tester-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight command-line REST API testing tool for the terminal",
   "type": "module",
   "main": "index.js",
