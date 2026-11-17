@@ -1,0 +1,34 @@
+{
+  "name": "api-tester-cli",
+  "version": "1.0.0",
+  "description": "A lightweight command-line REST API testing tool for the terminal",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "api-tester": "./index.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarthakjaiswal2006/api-tester-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "api",
+    "rest",
+    "http",
+    "postman",
+    "testing"
+  ],
+  "author": "Sarthak Jaiswal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sarthakjaiswal2006/api-tester-cli/issues"
+  },
+  "homepage": "https://github.com/sarthakjaiswal2006/api-tester-cli#readme",
+  "dependencies": {
+    "commander": "^15.1.0"
+  }
+}
